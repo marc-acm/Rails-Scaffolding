@@ -1,0 +1,19 @@
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @supplier.name %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @supplier.address %>
+</p>
+
+<p>
+  <strong>Tel no:</strong>
+  <%= @supplier.tel_no %>
+</p>
+
+<%= link_to 'Edit', edit_supplier_path(@supplier) %> |
+<%= link_to 'Back', suppliers_path %>
